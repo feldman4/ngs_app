@@ -11,7 +11,6 @@ import seaborn as sns
 from natsort import natsorted
 from slugify import slugify
 
-from .resources import SWALLOW_SH
 from .sequence import (add_design_matches, read_fastq, reverse_translate_max,
                        try_translate_dna)
 from .utils import assert_unique, csv_frame, dataframe_to_csv_string
